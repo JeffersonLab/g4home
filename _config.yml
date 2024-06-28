@@ -40,3 +40,8 @@ exclude:
    - Gemfile.lock
    - README.md
    - todo
+   - node_modules
+   - vendor/bundle/
+   - vendor/cache/
+   - vendor/gems/
+   - vendor/ruby/
