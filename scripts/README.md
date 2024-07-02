@@ -9,7 +9,6 @@ install it in the `/usr/local/bin` directory. May have to change the permissions
 Run asciinema normally, for example:
 
 ```
-SHELL_SESSION_DID_INIT=1
 asciinema rec demo.cast
 ```
 

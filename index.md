@@ -12,6 +12,24 @@ ifarm: "<br/><a href=\"/ifarm\"><img src=\"assets/images/ifarm.png\"
 border=\"0px\" width=\"550px\" height=\"350px\"/></a><br/>
 <a href=\"ifarm\">Geant4 on the CUE machines</a><br/><br/>  "
 
+cvmfs: "<br/><a href=\"/cvmfs\"><img src=\"assets/images/cvmfs.png\" 
+border=\"0px\" width=\"550px\" height=\"350px\"/></a><br/>
+<a href=\"cvmfs\">Geant4 on CVMFS</a><br/><br/>  "
+
+docker: "<br/><a href=\"/docker\"><img src=\"assets/images/docker.png\" 
+border=\"0px\" width=\"550px\" height=\"350px\"/></a><br/>
+<a href=\"docker\">Geant4 on Docker Containers</a><br/><br/>  "
+
+showcase: "<br/><a href=\"/showcase\"><img src=\"assets/images/showcase.png\" 
+border=\"0px\" width=\"550px\" height=\"350px\"/></a><br/>
+<a href=\"showcase\">Geant4 Use Cases at Jefferson Lab</a><br/><br/>  "
+
+validation: "<br/><a href=\"/validation\"><img src=\"assets/images/validation.png\" 
+border=\"0px\" width=\"550px\" height=\"350px\"/></a><br/>
+<a href=\"validation\">Geant4 validation at JLab's energies</a><br/><br/>  "
+
+
+
 ---
 
 # Geant4 at Jefferson Lab
@@ -44,12 +62,12 @@ At Jefferson Lab we use Geant4 for the simulation of our experimental setups, in
 <td>  {{page.ifarm}}  </td>
 </tr>
 <tr> 
-<td>  {{page.tutorial}}  </td>
-<td>  {{page.tutorial}}  </td>
+<td>  {{page.cvmfs}}  </td>
+<td>  {{page.docker}}  </td>
 </tr>
 <tr> 
-<td>  {{page.tutorial}}  </td>
-<td>  {{page.tutorial}}  </td>
+<td>  {{page.showcase}}  </td>
+<td>  {{page.validation}}  </td>
 </tr>
 </table>
 
@@ -57,22 +75,10 @@ At Jefferson Lab we use Geant4 for the simulation of our experimental setups, in
 
 <br/>
 
-- Development of Geant4, by:
-  - Validating the physics models
-  - Testing Geant4 on our experimental setups
-- Support to the users at Jefferson Lab, by:
-  - Setting up the environment on the JLab CUE machines (ifarm)
-  - Distributing releases of Geant4 on CVMFS for the following platforms:
-    - Linux: {{ site.supported_linux }}
-    - MacOS: {{ site.supported_macos }}
-  - Providing and upporting installation procedures for the supported platforms
-
-
-<br/>
 
 ---
 
 <br/>
 
 
-## Latest version of geant4: {{ site.latestg4 }} 
+### Latest version of geant4: {{ site.latestg4 }} 
