@@ -4,29 +4,29 @@
 
 layout: home
 
-tutorial: "<br/><a href=\"/tutorials\"><img src=\"assets/images/tutorial.png\" 
+tutorial: "<br/><a href=\"/g4home/tutorials\"><img src=\"assets/images/tutorial.png\" 
 border=\"0px\" width=\"550px\" height=\"350px\"/></a><br/>
 <a href=\"tutorial\">Geant4 Tutorials</a><br/><br/>  "
 
-ifarm: "<br/><a href=\"/ifarm\"><img src=\"assets/images/ifarm.png\" 
+ifarm: "<br/><a href=\"/g4home/ifarm\"><img src=\"assets/images/ifarm.png\" 
 border=\"0px\" width=\"550px\" height=\"350px\"/></a><br/>
-<a href=\"ifarm\">Geant4 on the CUE machines</a><br/><br/>  "
+<a href=\"/g4home/ifarm\">Geant4 on the CUE machines</a><br/><br/>  "
 
-cvmfs: "<br/><a href=\"/cvmfs\"><img src=\"assets/images/cvmfs.png\" 
+cvmfs: "<br/><a href=\"/g4home/cvmfs\"><img src=\"assets/images/cvmfs.png\" 
 border=\"0px\" width=\"550px\" height=\"350px\"/></a><br/>
-<a href=\"cvmfs\">Geant4 on CVMFS</a><br/><br/>  "
+<a href=\"/g4home/cvmfs\">Geant4 on CVMFS</a><br/><br/>  "
 
-docker: "<br/><a href=\"/docker\"><img src=\"assets/images/docker.png\" 
+docker: "<br/><a href=\"/g4home/docker\"><img src=\"assets/images/docker.png\" 
 border=\"0px\" width=\"550px\" height=\"350px\"/></a><br/>
-<a href=\"docker\">Geant4 on Docker Containers</a><br/><br/>  "
+<a href=\"/g4home/docker\">Geant4 on Docker Containers</a><br/><br/>  "
 
-showcase: "<br/><a href=\"/showcase\"><img src=\"assets/images/showcase.png\" 
+showcase: "<br/><a href=\"/g4home/showcase\"><img src=\"assets/images/showcase.png\" 
 border=\"0px\" width=\"550px\" height=\"350px\"/></a><br/>
-<a href=\"showcase\">Geant4 Use Cases at Jefferson Lab</a><br/><br/>  "
+<a href=\"/g4home/showcase\">Geant4 Use Cases at Jefferson Lab</a><br/><br/>  "
 
-validation: "<br/><a href=\"/validation\"><img src=\"assets/images/validation.png\" 
+validation: "<br/><a href=\"/g4home/validation\"><img src=\"assets/images/validation.png\" 
 border=\"0px\" width=\"550px\" height=\"350px\"/></a><br/>
-<a href=\"validation\">Geant4 validation at JLab's energies</a><br/><br/>  "
+<a href=\"/g4home/validation\">Geant4 validation at JLab's energies</a><br/><br/>  "
 
 
 

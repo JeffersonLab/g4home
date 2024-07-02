@@ -25,6 +25,6 @@ version of Geant4 (currently {{ site.latestg4 }}):
 <br/>
 
 
-![ifarm](/assets/gifs/ifarm.gif)
+![ifarm](../assets/gifs/ifarm.gif)
 
 

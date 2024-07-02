@@ -4,11 +4,8 @@ title: validation
 permalink: /validation/
 ---
 
-
-
 # Validation of Geant4 at JLab's energies
 
 
-![ifarm](/assets/gifs/ifarm.gif)
 
 

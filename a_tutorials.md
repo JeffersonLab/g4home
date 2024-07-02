@@ -28,7 +28,7 @@ knowledge of **C++** and **Linux** in addition to basic radiation physics.
 
 The version is deployed using Github Pages and is available at the following link:
 
-[![tutorial](/assets/images/tutorial_ss.png)](https://jeffersonlab.github.io/geant4-tutorials/index.html)
+[![tutorial](..//assets/images/tutorial_ss.png)](https://jeffersonlab.github.io/geant4-tutorials/index.html)
 
 <br/>
 

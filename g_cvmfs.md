@@ -24,5 +24,5 @@ version of Geant4 (currently {{ site.latestg4 }})
 
 ---
 
-![local](/assets/gifs/local.gif)
+![local](../assets/gifs/local.gif)
 
