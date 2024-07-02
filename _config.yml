@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable giyou would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Geant4 at Jefferson Lab
+title: home
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -33,6 +33,7 @@ plugins:
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
+# the vendor directory is added to allow github pages build
 exclude:
    - .jekyll-cache/
    - .idea/
@@ -45,3 +46,8 @@ exclude:
    - vendor/cache/
    - vendor/gems/
    - vendor/ruby/
+
+# shortcuts to symbols, accessible with {{ site.symbol_name }}
+latestg4: "<b>11.2.2</b>"
+supported_linux:  "Fedora 36, AlmaLinux 9"
+supported_macos:  "macOS 14.5 (Sonoma)"
