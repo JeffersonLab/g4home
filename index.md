@@ -8,17 +8,9 @@ tutorial: "<br/><a href=\"/g4home/tutorials\"><img src=\"assets/images/tutorial.
 border=\"0px\" width=\"550px\" height=\"350px\"/></a><br/>
 <a href=\"tutorial\">Geant4 Tutorials</a><br/><br/>  "
 
-ifarm: "<br/><a href=\"/g4home/ifarm\"><img src=\"assets/images/ifarm.png\" 
+use: "<br/><a href=\"/g4home/use\"><img src=\"assets/images/ifarm.png\" 
 border=\"0px\" width=\"550px\" height=\"350px\"/></a><br/>
-<a href=\"/g4home/ifarm\">Geant4 on the CUE machines</a><br/><br/>  "
-
-cvmfs: "<br/><a href=\"/g4home/cvmfs\"><img src=\"assets/images/cvmfs.png\" 
-border=\"0px\" width=\"550px\" height=\"350px\"/></a><br/>
-<a href=\"/g4home/cvmfs\">Geant4 on CVMFS</a><br/><br/>  "
-
-docker: "<br/><a href=\"/g4home/docker\"><img src=\"assets/images/docker.png\" 
-border=\"0px\" width=\"550px\" height=\"350px\"/></a><br/>
-<a href=\"/g4home/docker\">Geant4 on Docker Containers</a><br/><br/>  "
+<a href=\"/g4home/use\">Use Geant4</a><br/><br/>  "
 
 showcase: "<br/><a href=\"/g4home/showcase\"><img src=\"assets/images/showcase.png\" 
 border=\"0px\" width=\"550px\" height=\"350px\"/></a><br/>
@@ -59,11 +51,7 @@ At Jefferson Lab we use Geant4 for the simulation of our experimental setups, in
 <table class="alternate" style="    text-align:center;">
 <tr> 
 <td>  {{page.tutorial}}  </td>
-<td>  {{page.ifarm}}  </td>
-</tr>
-<tr> 
-<td>  {{page.cvmfs}}  </td>
-<td>  {{page.docker}}  </td>
+<td>  {{page.use}}  </td>
 </tr>
 <tr> 
 <td>  {{page.showcase}}  </td>
