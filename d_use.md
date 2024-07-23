@@ -15,11 +15,14 @@ permalink: /use/
 
 A full installation of Geant4 that includes qt5, clhep and xercesc can be used via `modules`. To enable it:
 
-- tcsh: `source /cvmfs/oasis.opensciencegrid.org/jlab/geant4/ceInstall/geant4_cvmfs.csh`
-- bash, zsh: `. /cvmfs/oasis.opensciencegrid.org/jlab/geant4/ceInstall/geant4_cvmfs.sh`
+```shell
 
-After sourcing the script, you can use the command `module load sim` to load the latest 
-version of Geant4 (currently {{ site.latestg4 }}):
+module use /scigroup/cvmfs/geant4/modules 
+
+```
+
+After sourcing the script, you can use the command `module avail geant4` to display the available versions of Geant4. 
+To load the latest version (currently {{ site.latestg4 }}) use the command `module load geant4`
 
 <br/>
 
@@ -36,12 +39,19 @@ We distribute releases of Geant4 on CVMFS for the following platforms:
 - MacOS: {{ site.supported_macos }}
 
 
-If you have access to a CVMFS client, you can use the following command to access the Geant4 installation:
+If you have access to a CVMFS client, you can use the same procedure as for the JLab CUE machines, but replace the cvmfs path:
 
-- tcsh: `source /cvmfs/oasis.opensciencegrid.org/jlab/geant4/ceInstall/geant4_cvmfs.csh`
-- bash, zsh: `. /cvmfs/oasis.opensciencegrid.org/jlab/geant4/ceInstall/geant4_cvmfs.sh`
+```shell
 
-After sourcing the script, you can use the command `module load sim` to load the latest 
-version of Geant4 (currently {{ site.latestg4 }})
+module use /cvmfs/oasis.opensciencegrid.org/jlab/geant4/modules 
+
+```
+
+# Use a Docker Container
+
+
+
 
 <br/>
+
+<script src="/g4home/assets/copyCode.js"></script>

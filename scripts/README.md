@@ -9,7 +9,7 @@ install it in the `/usr/local/bin` directory. May have to change the permissions
 Run asciinema normally, for example:
 
 ```
-asciinema rec demo.cast
+asciinema rec ifarm.cast
 ```
 
 Then run `agg` to create a gif:
