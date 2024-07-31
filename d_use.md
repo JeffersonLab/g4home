@@ -55,6 +55,7 @@ If you have access to a CVMFS client, you can use the same procedure as for the 
 ```shell
 
 module use /cvmfs/oasis.opensciencegrid.org/jlab/geant4/modules 
+module load geant4
 
 ```
 
