@@ -12,9 +12,11 @@ permalink: /use/
 
 <br/>
 
+A full installation of Geant4 that includes qt5, clhep and xercesc is available at Jefferson Lab.
 
-A full installation of Geant4 that includes qt5, clhep and xercesc can be used via `modules`. To enable and use 
-the latest version of Geant4 (currently {{ site.latestg4 }}), you can use the following commands:
+<br/>
+
+To load the latest version of Geant4 (currently {{ site.latestg4 }}), you can use the following commands:
 
 ```shell
 
