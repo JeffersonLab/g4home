@@ -50,5 +50,8 @@ exclude:
 
 # shortcuts to symbols, accessible with {{ site.symbol_name }}
 latestg4: "<b>11.2.2</b>"
-supported_linux:  "Fedora 36, AlmaLinux 9"
+supported_linux:  "Fedora 36, AlmaLinux 9, Ubuntu24"
 supported_macos:  "macOS 14.5 (Sonoma)"
+fedora_container: "jeffersonlab/geant4:g4v11.2.2-fedora36"
+alma_container:   "jeffersonlab/geant4:g4v11.2.2-almalinux93"
+ubuntu_container: "jeffersonlab/geant4:g4v11.2.2-ubuntu24"
