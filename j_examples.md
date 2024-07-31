@@ -31,8 +31,8 @@ make -j 4
 Change `lib` to `lib64` if necessary. 
 
 <div class="info">
-	If you want to modify the examples, we recommend to copy the example to a different directory and work there. 
-	In this case replace $G4INSTALL/source/examples/basic/B5 with the path to your new source directory.
+	If you want to modify the example's code, we recommend to copy the example source directory somewhere 
+	and replace $G4INSTALL/source/examples/basic/B5 with the path to your new source directory.
 </div>
 
 <br/>

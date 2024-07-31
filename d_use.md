@@ -14,8 +14,6 @@ permalink: /use/
 
 A full installation of Geant4 that includes qt5, clhep and xercesc is available at Jefferson Lab.
 
-<br/>
-
 To load the latest version of Geant4 (currently {{ site.latestg4 }}), you can use the following commands on any CUE machine:
 
 ```shell
