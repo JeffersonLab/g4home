@@ -12,21 +12,23 @@ permalink: /examples/
 
 <br/>
 
-Follow the instructions on the [use](/g4home/use/) page to load the Geant4 
+Follow the commands on the [use](/g4home/use/) page to load the Geant4 
 environment.
 
-In these instructions we will compile the `examples/basic/B5` , but it could be any other
-subdir in `$G4INSTALL/source/examples/`.
+In the following instructions we will compile the `examples/basic/B5` example, but it could be any other
+available in `$G4INSTALL/source/examples/`.
 
 
 ```
+
 mkdir build_B5
 cd build_B5
 cmake  -DGeant4_DIR=$G4INSTALL/lib/cmake/Geant4 $G4INSTALL/source/examples/basic/B5
 make -j 4 
+
 ```
 
-Change `lib` to `lib64` when necessary. 
+Change `lib` to `lib64` if necessary. 
 
 <div class="info">
 	If you want to modify the examples, we recommend to copy the example to a different directory and work there. 
