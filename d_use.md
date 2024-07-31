@@ -16,7 +16,7 @@ A full installation of Geant4 that includes qt5, clhep and xercesc is available 
 
 <br/>
 
-To load the latest version of Geant4 (currently {{ site.latestg4 }}), you can use the following commands:
+To load the latest version of Geant4 (currently {{ site.latestg4 }}), you can use the following commands on any CUE machine:
 
 ```shell
 
@@ -25,13 +25,13 @@ module load geant4
 
 ```
 
-You can also run `module avail geant4` to display the available versions of Geant4, and switch to another version with `module switch geant4/<version>`.
-
 <div class="info">
 	We suggest to add the commands above to your shell login file to have them available every time you log in.
 </div>
 
 <br/>
+
+Run `module avail geant4` to show the available versions of Geant4, and `module switch geant4/<version>` to change Geant4 version.
 
 
 ![ifarm](../assets/gifs/ifarm.gif)
