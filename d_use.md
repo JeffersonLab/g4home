@@ -77,6 +77,8 @@ The following docker containers are available:
 To use, we recommend mounting a work directory to the container (here we use `~/work`) to save your work through docker sessions.
 In the following examples we'll use the `fedora` container, but the same applies to the other containers.
 
+<br/>
+
 ---
 
 <br/>
@@ -88,6 +90,7 @@ In the following examples we'll use the `fedora` container, but the same applies
 docker run --platform linux/amd64 -it --rm -v ~/mywork:/usr/local/mywork {{ site.fedora_container }} bash
 
 ```
+<br/>
 
 
 ---
@@ -105,6 +108,8 @@ docker run --platform linux/amd64 -it --rm -v ~/mywork:/usr/local/mywork -p 8080
 ```
 
 After the above command, follow the instructions in the terminal to open a browser and connect to the container's port.
+
+<br/>
 
 ---
 
