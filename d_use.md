@@ -50,7 +50,7 @@ We distribute releases of Geant4 on CVMFS for the following platforms:
 - MacOS: {{ site.supported_macos }}
 
 
-If you have access to a CVMFS client, you can use the same procedure as for the JLab CUE machines, but replace the cvmfs path:
+If you have access to a CVMFS client and your OS is supported, you can load Geant4 with the following commands:
 
 ```shell
 
@@ -106,7 +106,14 @@ docker run --platform linux/amd64 -it --rm -v ~/mywork:/usr/local/mywork -p 8080
 
 After the above command, follow the instructions in the terminal to open a browser and connect to the container's port.
 
+---
+
+<br/>
 
 
+### Questions or Feedback?
+
+If you have any questions or suggestions, please contact me at [ungaro](mailto: ungaro@jlab.org). 
+For general Geant4 issues, please use the [Geant4 Forum](https://geant4-forum.web.cern.ch/).
 
 <script src="/g4home/assets/copyCode.js"></script>
