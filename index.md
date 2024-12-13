@@ -70,7 +70,7 @@ At Jefferson Lab we use Geant4 for the simulation of our experimental setups, in
 
 <br/>
 
-### Jefferson Lab Supports:
+### Jefferson Lab Support:
 
 - Latest version of Geant4: {{ site.latestg4 }} 
 - Geant4 Versions: {{ site.allg4 }} 

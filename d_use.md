@@ -24,7 +24,9 @@ module load geant4
 ```
 
 <div class="info">
-	We suggest to add the commands above to your shell login file to have them available every time you log in.
+	We recommend to specify the Geant4 version if you want to add the commands above to your shell login file,
+    for example module load geant4/{{ site.latestg4 }}. This way you ensure that your project will work even 
+	if the default version changes.
 </div>
 
 <br/>
@@ -44,8 +46,8 @@ Run `module avail geant4` to show the available versions of Geant4, and `module 
 
 # How to use Geant4 on your local machine using CVMFS
 
-If you have access to a CVMFS client and your OS platform is supported, you can load the 
-latest version of Geant4 (currently {{ site.latestg4 }}) with the following commands:
+If you have access to a CVMFS client and your OS platform is supported, you can load 
+Geant4 with the following commands:
 
 ```shell
 
@@ -111,7 +113,7 @@ After the above command, follow the instructions in the terminal to open a brows
 
 <br/>
 
-If you want to use containers with different versions of geant4, replace {{ site.latestg4 }} with one of the supported versions. 
+If you want to use containers with different versions of Geant4, replace {{ site.latestg4 }} with one of the supported versions. 
 
 ---
 
