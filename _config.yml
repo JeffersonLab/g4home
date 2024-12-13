@@ -49,9 +49,10 @@ exclude:
    - vendor/ruby/
 
 # shortcuts to symbols, accessible with {{ site.symbol_name }}
-latestg4: "<b>11.3.0</b>"
-supported_linux:  "Fedora 36, AlmaLinux 9, Ubuntu24"
-supported_macos:  "macOS 14.5 (Sonoma)"
+latestg4: "<b><i>11.3.0</i></b>"
+allg4: "<b><i>10.6.2 - 10.7.4 - 11.2.2 - 11.3.0</i></b>"
+supported_platforms:  "<b><i>AlmaLinux 9.4 - Ubuntu24 - Fedora36 - MacOS 15 (Sequoia)</i></b>"
+#supported_platforms:  "AlmaLinux 9.4 - Ubuntu24 - Fedora36 - MacOS 15 (Sequoia)"
 fedora_container: "jeffersonlab/geant4:g4v11.3.0-fedora36"
-alma_container:   "jeffersonlab/geant4:g4v11.3.0-almalinux93"
+alma_container:   "jeffersonlab/geant4:g4v11.3.0-almalinux94"
 ubuntu_container: "jeffersonlab/geant4:g4v11.3.0-ubuntu24"

@@ -12,9 +12,9 @@ permalink: /use/
 
 <br/>
 
-A full installation of Geant4 that includes qt5, clhep and xercesc is available at Jefferson Lab.
+A full installation of Geant4 that includes qt5, clhep and xercesc is available at Jefferson Lab on the CUE machines.
 
-To load the latest version of Geant4 (currently {{ site.latestg4 }}), you can use the following commands on any CUE machine:
+To load the latest version of Geant4 (currently {{ site.latestg4 }}), use the following commands:
 
 ```shell
 
@@ -44,21 +44,20 @@ Run `module avail geant4` to show the available versions of Geant4, and `module 
 
 # How to use Geant4 on your local machine using CVMFS
 
-We distribute releases of Geant4 on CVMFS for the following platforms:
-
-- Linux: {{ site.supported_linux }}
-- MacOS: {{ site.supported_macos }}
-
-
-If you have access to a CVMFS client and your OS is supported, you can load Geant4 with the following commands:
+If you have access to a CVMFS client and your OS platform is supported, you can load the 
+latest version of Geant4 (currently {{ site.latestg4 }}) with the following commands:
 
 ```shell
 
 module use /cvmfs/oasis.opensciencegrid.org/jlab/geant4/modules 
+module avail geant4
 module load geant4
 
 ```
 
+Use `module switch geant4/<version>` to change Geant4 version.
+
+### Supported Platforms:  {{ site.supported_platforms }}
 
 <br/>
 
@@ -78,6 +77,7 @@ To use, we recommend mounting a work directory to the container (here we use `~/
 In the following examples we'll use the `fedora` container, but the same applies to the other containers.
 
 <br/>
+
 
 ---
 
@@ -110,6 +110,8 @@ docker run --platform linux/amd64 -it --rm -v ~/mywork:/usr/local/mywork -p 8080
 After the above command, follow the instructions in the terminal to open a browser and connect to the container's port.
 
 <br/>
+
+If you want to use containers with different versions of geant4, replace {{ site.latestg4 }} with one of the supported versions. 
 
 ---
 

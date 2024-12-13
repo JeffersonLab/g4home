@@ -1,5 +1,6 @@
 # this script was run manually 
-ssh ifarm2402.jlab.org
-source /cvmfs/oasis.opensciencegrid.org/jlab/geant4/ceInstall/geant4_cvmfs.csh
-module load sim
-echo $G4INSTALL
+ssh ifarm
+module use /scigroup/cvmfs/geant4/modules
+module avail geant4
+module load geant4
+ls $G4INSTALL

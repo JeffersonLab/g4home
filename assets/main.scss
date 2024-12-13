@@ -23,20 +23,21 @@ body {
 
 table th {
   background-color: #fdfdfd;
-  border: 1px solid #fdfdfd;
+  border: 0px solid #fdfdfd;
   border-bottom-color: #fdfdfd;
 }
 
 table td {
-  border: 1px solid #fdfdfd;
+  border: 0px solid #fdfdfd;
   background-color: #fdfdfd;
 }
 
 .alternate td {
-  border: 1px solid #888;
+  border: 0px solid #888;
 }
 
 .alternate tr:nth-child(odd) td {
+  border: 0px solid #888;
   background: #f8fafa;
 }
 
@@ -115,7 +116,7 @@ a.page-link:hover {
 
 img:hover {
   background-color: #ececec;
-  outline: 1px solid #41a4ea;
+  outline: 5px solid #888888;
 }
 
 button:focus {

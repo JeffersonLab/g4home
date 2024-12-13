@@ -16,19 +16,17 @@ Follow the commands on the [use](/g4home/use/) page to load the Geant4
 environment.
 
 In the following instructions we will compile the `examples/basic/B5` example, but it could be any other
-available in `$G4INSTALL/source/examples/`.
+available in `$G4INSTALL/source/examples/`. Replace `-j4` with with `-jN` where N is the number of cores you want to use for the compilation.
 
 
 ```
 
 mkdir build_B5
 cd build_B5
-cmake  -DGeant4_DIR=$G4INSTALL/lib/cmake/Geant4 $G4INSTALL/source/examples/basic/B5
-make -j 4 
+cmake $G4INSTALL/source/examples/basic/B5
+make -j4 
 
 ```
-
-Change `lib` to `lib64` if necessary. 
 
 <div class="info">
 	If you want to modify the example's code, we recommend to copy the example source directory somewhere 

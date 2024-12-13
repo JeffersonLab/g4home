@@ -4,21 +4,21 @@
 
 layout: home
 
-tutorial: "<br/><a href=\"/g4home/tutorials\"><img src=\"assets/images/tutorial.png\" 
-border=\"0px\" width=\"550px\" height=\"350px\"/></a><br/>
-<a href=\"tutorial\">Geant4 Tutorials</a><br/><br/>  "
+tutorial: "<a href=\"/g4home/tutorials\"><img src=\"assets/images/tutorial.png\" 
+border=\"0px\" width=\"450px\" height=\"250px\"/></a><br/>
+<a href=\"tutorial\">Geant4 Tutorials</a><br/>  "
 
-use: "<br/><a href=\"/g4home/use\"><img src=\"assets/images/ifarm.png\" 
-border=\"0px\" width=\"550px\" height=\"350px\"/></a><br/>
-<a href=\"/g4home/use\">Use Geant4</a><br/><br/>  "
+use: "<a href=\"/g4home/use\"><img src=\"assets/images/ifarm.png\" 
+border=\"0px\" width=\"450px\" height=\"250px\"/></a><br/>
+<a href=\"/g4home/use\">Use Geant4</a><br/>  "
 
-showcase: "<br/><a href=\"/g4home/showcase\"><img src=\"assets/images/showcase.png\" 
-border=\"0px\" width=\"550px\" height=\"350px\"/></a><br/>
-<a href=\"/g4home/showcase\">Geant4 Use Cases at Jefferson Lab</a><br/><br/>  "
+showcase: "<a href=\"/g4home/showcase\"><img src=\"assets/images/showcase.png\" 
+border=\"0px\" width=\"450px\" height=\"250px\"/></a><br/>
+<a href=\"/g4home/showcase\">Geant4 Use Cases at Jefferson Lab</a><br/>  "
 
-validation: "<br/><a href=\"/g4home/validation\"><img src=\"assets/images/validation.png\" 
-border=\"0px\" width=\"550px\" height=\"350px\"/></a><br/>
-<a href=\"/g4home/validation\">Geant4 validation at JLab's energies</a><br/><br/>  "
+validation: "<a href=\"/g4home/validation\"><img src=\"assets/images/validation.png\" 
+border=\"0px\" width=\"450px\" height=\"250px\"/></a><br/>
+<a href=\"/g4home/validation\">Geant4 validation at JLab's energies</a><br/>  "
 
 
 
@@ -27,6 +27,9 @@ border=\"0px\" width=\"550px\" height=\"350px\"/></a><br/>
 # Geant4 at Jefferson Lab
 
 ---
+
+`Latest News: The new public release of Geant4, Geant4 11.3, is available. 
+`
 
 <br/>
 
@@ -45,10 +48,8 @@ At Jefferson Lab we use Geant4 for the simulation of our experimental setups, in
 
 <br/>
 
----
 
-
-<table class="alternate" style="    text-align:center;">
+<table class="alternate" style="  text-align:center;">
 <tr> 
 <td>  {{page.tutorial}}  </td>
 <td>  {{page.use}}  </td>
@@ -64,9 +65,19 @@ At Jefferson Lab we use Geant4 for the simulation of our experimental setups, in
 <br/>
 
 
+
 ---
 
 <br/>
 
+### Jefferson Lab Supports:
 
-### Latest version of geant4: {{ site.latestg4 }} 
+- Latest version of Geant4: {{ site.latestg4 }} 
+- Geant4 Versions: {{ site.allg4 }} 
+- Platforms:  {{ site.supported_platforms }}
+
+<br/>
+
+---
+
+<br/><br/>
