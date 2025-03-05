@@ -32,9 +32,8 @@ end
 # Performance-booster for watching directories on Windows
 gem "wdm", :platforms => [:mingw, :x64_mingw, :mswin]
 
-# kramdown v2 ships without the gfm parser by default. If you're using
-# kramdown v1, comment out this line.
-# gem "kramdown-parser-gfm"
+# needed for jekyll on github
+gem "kramdown-parser-gfm"
 
 # Lock `http_parser.rb` gem to `v0.6.x` on JRuby builds since newer versions of the gem
 # do not have a Java counterpart.
