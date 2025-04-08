@@ -28,9 +28,8 @@ border=\"0px\" width=\"450px\" height=\"250px\"/></a><br/>
 
 ---
 
-```
-Latest News: The new public release of Geant4, Geant4 {{ site.latestg4 }}, is [available](https://geant4.web.cern.ch/download/11.3.1.html). 
-```
+**Latest News: The new public release of Geant4, {{ site.latestg4 }}, 
+is now [available](https://geant4.web.cern.ch/download/11.3.1.html).** 
 
 <br/>
 

@@ -13,6 +13,10 @@ gem "jekyll", "~> 3.10.0"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima"
 
+gem "base64"
+gem "logger" # Add this proactively to avoid future errors with Ruby 3.5+
+gem "bigdecimal"
+
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 # gem "github-pages", group: :jekyll_plugins
