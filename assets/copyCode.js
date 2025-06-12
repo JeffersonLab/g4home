@@ -5,8 +5,6 @@ console.log('hello world 0');
 
 codeBlocks.forEach(function (codeBlock) {
 
-		console.log('hello world 1');
-
 		var copyButton = document.createElement('button');
 		copyButton.className = 'copy';
 		copyButton.type = 'button';
@@ -14,7 +12,6 @@ codeBlocks.forEach(function (codeBlock) {
 		copyButton.innerText = 'COPY';
 
 		codeBlock.append(copyButton);
-		console.log('hello world 1');
 		console.log(codeBlock.innerHTML);
 
 		copyButton.addEventListener('click', function () {
