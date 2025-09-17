@@ -5,7 +5,7 @@
 layout: home
 
 tutorial: "<a href=\"/g4home/tutorials\"><img src=\"assets/images/tutorial.png\" 
-border=\"0px\" width=\"450px\" height=\"250px\"/></a><br/>
+border=\"0px\" width=\"450px\" height=\"380px\"/></a><br/>
 <a href=\"tutorial\">Geant4 Tutorials</a><br/>  "
 
 use: "<a href=\"/g4home/use\"><img src=\"assets/images/ifarm.png\" 

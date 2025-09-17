@@ -38,6 +38,7 @@ The version is deployed using Github Pages and is available at the following lin
 
 # Past Events:
 
-| Date       | Location          | Event                                                                      |
-|------------|-------------------|----------------------------------------------------------------------------|
-| March 2024 | Newport News, USA | [Jefferson Lab Geant4 tutorial course](https://indico.jlab.org/event/828/) |
+| Date        | Location          | Event                                                                       |
+|-------------|-------------------|-----------------------------------------------------------------------------|
+| August 2025 | Newport News, USA | [Geant4 Tutorial Course 18-22 Aug 2025](https://indico.jlab.org/event/963/) |
+| March 2024  | Newport News, USA | [Geant4 Tutorial Course 25–29 Mar 2024](https://indico.jlab.org/event/828/)               |
