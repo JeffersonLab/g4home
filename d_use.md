@@ -12,13 +12,13 @@ permalink: /use/
 
 <br/>
 
-A full installation of Geant4 that includes qt5, clhep and xercesc is available at Jefferson Lab on the CUE machines.
+A full installation of Geant4 that includes qt6, clhep and xercesc is available at Jefferson Lab on the CUE machines.
 
 To load the latest version of Geant4 (currently {{ site.latestg4 }}), use the following commands:
 
 ```shell
 
-module use /scigroup/cvmfs/geant4/modules 
+module use /scigroup/cvmfs/geant4/g4install/modules 
 module load geant4
 
 ```
@@ -51,7 +51,7 @@ Geant4 with the following commands:
 
 ```shell
 
-module use /cvmfs/oasis.opensciencegrid.org/jlab/geant4/modules 
+module use /cvmfs/oasis.opensciencegrid.org/jlab/geant4/g4install/modules 
 module avail geant4
 module load geant4
 
@@ -69,14 +69,17 @@ Use `module switch geant4/<version>` to change Geant4 version.
 
 # Use a Docker Container
 
-The following docker containers are available:
 
+The [available docker containers](https://github.com/gemc/g4install/pkgs/container/g4install) are listed below. 
+
+- {{ site.ubuntu_container }}
 - {{ site.fedora_container }}
 - {{ site.alma_container }}
-- {{ site.ubuntu_container }}
+- {{ site.debian_container }}
+- {{ site.archlinux_container }}
 
 To use, we recommend mounting a work directory to the container (here we use `~/work`) to save your work through docker sessions.
-In the following examples we'll use the `fedora` container, but the same applies to the other containers.
+In the following examples we'll use the `almalinux` container, but the same applies to the other containers.
 
 <br/>
 
@@ -89,7 +92,7 @@ In the following examples we'll use the `fedora` container, but the same applies
 
 ```
 
-docker run --platform linux/amd64 -it --rm -v ~/mywork:/usr/local/mywork {{ site.fedora_container }} bash
+docker run -it --rm -v ~/mywork:/usr/local/mywork {{ site.alma_container }} bash
 
 ```
 <br/>
@@ -100,12 +103,24 @@ docker run --platform linux/amd64 -it --rm -v ~/mywork:/usr/local/mywork {{ site
 <br/>
 
 
-### Interactive mode:
+### Graphical mode with VNC/noVNC:
 
+Set these convenience environemnt variables first:
 
 ```
 
-docker run --platform linux/amd64 -it --rm -v ~/mywork:/usr/local/mywork -p 8080:8080 {{ site.fedora_container }}
+VPORTS=(-p 6080:6080 -p 5900:5900)
+VNC_PASS=(-e X11VNC_PASSWORD=change-me)
+VNC_BIND=(-e VNC_BIND=0.0.0.0)
+GEO_FLAGS=(-e GEOMETRY=1920x1200)
+
+```
+
+Then run docker: 
+
+```
+
+docker run -it --rm -v ~/mywork:/usr/local/mywork $VPORTS $VNC_BIND $VNC_PASS $GEO_FLAGS  {{ site.alma_container }}
 
 ```
 

@@ -47,10 +47,11 @@ exclude:
    - vendor/ruby/
 
 # shortcuts to symbols, accessible with {{ site.symbol_name }}
-latestg4: "<b><i>11.3.2</i></b>"
-allg4: "<b><i>10.6.2 - 10.7.4 - 11.2.2 - 11.3.0 - 11.3.1 - 11.3.2</i></b>"
-supported_platforms:  "<b><i>AlmaLinux 9.4 - Ubuntu24 - Fedora36 - MacOS 15 (Sequoia)</i></b>"
-#supported_platforms:  "AlmaLinux 9.4 - Ubuntu24 - Fedora36 - MacOS 15 (Sequoia)"
-fedora_container: "jeffersonlab/geant4:g4v11.3.2-fedora36"
-alma_container:   "jeffersonlab/geant4:g4v11.3.2-almalinux94"
-ubuntu_container: "jeffersonlab/geant4:g4v11.3.2-ubuntu24"
+latestg4: "<b><i>11.4.0</i></b>"
+allg4: "<b><i>11.4.0 - 11.3.2</i></b>"
+supported_platforms:  "<b><i>Ubuntu 24.04 - Fedora 40 - AlmaLinux 9.4 - Debian 12 - Archlinux</i></b>"
+ubuntu_container: "ghcr.io/gemc/g4install:11.4.0-ubuntu24"
+fedora_container: "ghcr.io/gemc/g4install:11.4.0-fedora40"
+alma_container:   "ghcr.io/gemc/g4install:11.4.0-almalinux9.4"
+debian_container: "ghcr.io/gemc/g4install:11.4.0-debian-12"
+archlinux_container: "ghcr.io/gemc/g4install:11.4.0-archlinux-latest"

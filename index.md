@@ -29,7 +29,7 @@ border=\"0px\" width=\"450px\" height=\"250px\"/></a><br/>
 ---
 
 **Latest News: The new public release of Geant4, {{ site.latestg4 }}, 
-is now [available](https://geant4.web.cern.ch/download/11.3.1.html).** 
+is now [available](https://geant4.web.cern.ch/download/).** 
 
 <br/>
 
@@ -75,6 +75,7 @@ At Jefferson Lab we use Geant4 for the simulation of our experimental setups, in
 - Latest version of Geant4: {{ site.latestg4 }} 
 - Geant4 Versions: {{ site.allg4 }} 
 - Platforms:  {{ site.supported_platforms }}
+- Architectures: **amd64, arm64** (archlinux: only amd64)
 
 <br/>
 
