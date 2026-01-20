@@ -12,33 +12,40 @@ gem "jekyll", "~> 3.10.0"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima"
-
 gem "base64"
 gem "logger" # Add this proactively to avoid future errors with Ruby 3.5+
-gem "bigdecimal"
+gem "csv", require: false
+gem "bigdecimal", require: false
+gem "webrick", "~> 1.8"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
 # gem "github-pages", group: :jekyll_plugins
 
 # If you have any plugins, put them here!
+# admonitions: [!NOTE], [!TIP], [!WARNING], [!CAUTION], [!IMPORTANT]
 group :jekyll_plugins do
-  gem "jekyll-feed"
+	gem "jekyll-feed"
+ 	gem "jekyll-gfm-admonitions"
+	gem "jekyll-toc"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
-platforms :mingw, :x64_mingw, :mswin, :jruby do
+platforms :windows, :jruby do
   gem "tzinfo"
   gem "tzinfo-data"
 end
 
-# Performance-booster for watching directories on Windows
-gem "wdm", :platforms => [:mingw, :x64_mingw, :mswin]
+# Performance booster for watching directories on Windows
+gem "wdm", platforms: [:windows]
 
-# needed for jekyll on github
+# kramdown v2 ships without the GFM parser by default
 gem "kramdown-parser-gfm"
 
 # Lock `http_parser.rb` gem to `v0.6.x` on JRuby builds since newer versions of the gem
 # do not have a Java counterpart.
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
+
+# (Optional) Let MRI/TruffleRuby use newer versions
+gem "http_parser.rb", ">= 0.8", platforms: [:ruby, :truffleruby]
